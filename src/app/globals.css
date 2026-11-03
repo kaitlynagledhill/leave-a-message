@@ -795,6 +795,67 @@ footer .wrap {
   .how-head .section-title {
     margin-bottom: 32px;
   }
+
+  .step:first-child {
+    padding-left: 30px;
+  }
+
+    .steps {
+    border-left: 1px solid var(--line);
+  }
+
+  .step {
+    border-left: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-section {
+    padding: 64px 0;
+  }
+
+  .about-heading .section-title {
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+
+  .about-title {
+    line-height: 1;
+    margin-bottom: 28px;
+  }
+
+  .about-lead,
+  .about-copy .about-lead {
+    max-width: 100%;
+    font-size: 1.65rem;
+    line-height: 1.25;
+    margin-bottom: 36px;
+    text-wrap: pretty;
+  }
+
+  .about-grid {
+    padding-top: 28px;
+    gap: 28px;
+  }
+
+  .about-facts div {
+    margin-bottom: 18px;
+  }
+
+  .about-facts dd {
+    font-size: 1.1rem;
+  }
+
+  .about-body p {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin-bottom: 18px;
+  }
+
+  .about-body p:first-child {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
 }
 
 @media (max-width: 760px) {
